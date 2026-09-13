@@ -275,3 +275,303 @@ x==========x]
 [2026-09-13 17:48:33,310:  INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
 
 x==========x]
+[2026-09-13 18:22:07,251:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:22:07,253:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:22:07,257:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:22:07,258:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:22:07,260:  INFO: common: created directory at: artifacts/model_evaluation]
+[2026-09-13 18:23:05,219:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:23:05,220:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:23:05,225:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:23:05,227:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:23:05,228:  INFO: common: created directory at: artifacts/model_evaluation]
+[2026-09-13 18:26:44,042:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:26:44,053:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:26:44,055:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:26:44,055:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:26:44,055:  INFO: common: created directory at: artifacts/model_evaluation]
+[2026-09-13 18:30:05,672:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:30:05,675:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:30:05,678:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:30:05,680:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:30:05,681:  INFO: common: created directory at: artifacts/model_evaluation]
+[2026-09-13 18:30:15,139:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:30:15,141:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:30:15,144:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:30:15,145:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:30:15,147:  INFO: common: created directory at: artifacts/model_evaluation]
+[2026-09-13 18:32:16,357:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:32:16,360:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:32:16,364:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:32:16,365:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:32:16,366:  INFO: common: created directory at: artifacts/model_evaluation]
+[2026-09-13 18:32:28,526:  INFO: common: json file saved at: artifacts\model_evaluation\metric.json]
+[2026-09-13 18:44:01,143:  INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-09-13 18:44:01,145:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:44:01,145:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:44:01,149:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:44:01,150:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:44:01,150:  INFO: common: created directory at: artifacts/data_ingestion]
+[2026-09-13 18:44:01,150:  INFO: data_ingestion: File already exists]
+[2026-09-13 18:44:01,154:  INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2026-09-13 18:44:01,154:  INFO: main: >>>>> stage Data Validation Stage started <<<<<]
+[2026-09-13 18:44:01,158:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:44:01,159:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:44:01,161:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:44:01,161:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:44:01,161:  INFO: common: created directory at: artifacts/data_validation]
+[2026-09-13 18:44:01,177:  INFO: main: >>>>> stage Data Validation Stage completed <<<<<
+
+x==========x]
+[2026-09-13 18:44:01,177:  INFO: main: >>>>> stage Data Transformation Stage started <<<<<]
+[2026-09-13 18:44:01,182:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:44:01,183:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:44:01,185:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:44:01,185:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:44:01,185:  INFO: common: created directory at: artifacts/data_transformation]
+[2026-09-13 18:44:01,202:  INFO: data_transformation: Splited data into train and test sets]
+[2026-09-13 18:44:01,203:  INFO: data_transformation: (1199, 12)]
+[2026-09-13 18:44:01,203:  INFO: data_transformation: (400, 12)]
+[2026-09-13 18:44:01,203:  INFO: main: >>>>> stage Data Transformation Stage completed <<<<<
+
+x==========x]
+[2026-09-13 18:44:01,203:  INFO: main: >>>>> stage Model Trainer Stage started <<<<<]
+[2026-09-13 18:44:01,207:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:44:01,208:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:44:01,210:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:44:01,211:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:44:01,211:  INFO: common: created directory at: artifacts/model_trainer]
+[2026-09-13 18:44:01,237:  INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
+
+x==========x]
+[2026-09-13 18:44:01,237:  INFO: main: >>>>> stage Model Evaluation Stage started <<<<<]
+[2026-09-13 18:44:01,241:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:44:01,242:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:44:01,243:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:44:01,244:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:44:01,244:  ERROR: main: 'ConfiguartionManager' object has no attribute 'shcema']
+Traceback (most recent call last):
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\main.py", line 53, in <module>
+    model.initiate_model_evaluation()
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\src\datascience\pipeline\model_evaluation_pipeline.py", line 13, in initiate_model_evaluation
+    model_evaluation_config = config.get_model_evaluation_config()
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\src\datascience\config\configuration.py", line 79, in get_model_evaluation_config
+    schema = self.shcema.TARGET_COLUMN.name
+AttributeError: 'ConfiguartionManager' object has no attribute 'shcema'. Did you mean: 'schema'?
+[2026-09-13 18:44:47,093:  INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-09-13 18:44:47,093:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:44:47,093:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:44:47,093:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:44:47,093:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:44:47,093:  INFO: common: created directory at: artifacts/data_ingestion]
+[2026-09-13 18:44:47,105:  INFO: data_ingestion: File already exists]
+[2026-09-13 18:44:47,107:  INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2026-09-13 18:44:47,107:  INFO: main: >>>>> stage Data Validation Stage started <<<<<]
+[2026-09-13 18:44:47,110:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:44:47,110:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:44:47,115:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:44:47,115:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:44:47,116:  INFO: common: created directory at: artifacts/data_validation]
+[2026-09-13 18:44:47,131:  INFO: main: >>>>> stage Data Validation Stage completed <<<<<
+
+x==========x]
+[2026-09-13 18:44:47,132:  INFO: main: >>>>> stage Data Transformation Stage started <<<<<]
+[2026-09-13 18:44:47,133:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:44:47,133:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:44:47,139:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:44:47,139:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:44:47,140:  INFO: common: created directory at: artifacts/data_transformation]
+[2026-09-13 18:44:47,158:  INFO: data_transformation: Splited data into train and test sets]
+[2026-09-13 18:44:47,158:  INFO: data_transformation: (1199, 12)]
+[2026-09-13 18:44:47,158:  INFO: data_transformation: (400, 12)]
+[2026-09-13 18:44:47,158:  INFO: main: >>>>> stage Data Transformation Stage completed <<<<<
+
+x==========x]
+[2026-09-13 18:44:47,159:  INFO: main: >>>>> stage Model Trainer Stage started <<<<<]
+[2026-09-13 18:44:47,162:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:44:47,162:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:44:47,165:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:44:47,165:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:44:47,166:  INFO: common: created directory at: artifacts/model_trainer]
+[2026-09-13 18:44:47,197:  INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
+
+x==========x]
+[2026-09-13 18:44:47,197:  INFO: main: >>>>> stage Model Evaluation Stage started <<<<<]
+[2026-09-13 18:44:47,197:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:44:47,197:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:44:47,205:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:44:47,205:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:44:47,205:  INFO: common: created directory at: artifacts/model_evaluation]
+[2026-09-13 18:44:50,867:  INFO: common: json file saved at: artifacts\model_evaluation\metric.json]
+[2026-09-13 18:45:04,106:  ERROR: main: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\main.py", line 53, in <module>
+    model.initiate_model_evaluation()
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\src\datascience\pipeline\model_evaluation_pipeline.py", line 15, in initiate_model_evaluation
+    model_evaluation.log_into_mlflow()
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\src\datascience\components\model_evaluation.py", line 53, in log_into_mlflow
+    mlflow.sklearn.log_model(model, name="model", registered_model_name="ElasticnetModel")
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\.venv\lib\site-packages\mlflow\sklearn\__init__.py", line 478, in log_model
+    return Model.log(
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\.venv\lib\site-packages\mlflow\models\model.py", line 1374, in log
+    registered_model = mlflow.tracking._model_registry.fluent._register_model(
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\.venv\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 182, in _register_model
+    raise e
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\.venv\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 171, in _register_model
+    create_model_response = client.create_registered_model(name)
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\.venv\lib\site-packages\mlflow\tracking\client.py", line 4046, in create_registered_model
+    return self._get_registry_client().create_registered_model(
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\.venv\lib\site-packages\mlflow\telemetry\track.py", line 30, in wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\.venv\lib\site-packages\mlflow\tracking\_model_registry\client.py", line 96, in create_registered_model
+    return self.store.create_registered_model(name, tags, description, deployment_job_id)
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\.venv\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 120, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\.venv\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 68, in _call_endpoint
+    return super()._call_endpoint(
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\.venv\lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\.venv\lib\site-packages\mlflow\utils\rest_utils.py", line 673, in call_endpoint
+    response = verify_rest_response(
+  File "C:\Users\lispa\Desktop\Data Science\MLOps\data_project_n1\.venv\lib\site-packages\mlflow\utils\rest_utils.py", line 389, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2026-09-13 18:51:45,462:  INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-09-13 18:51:45,468:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:51:45,468:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:51:45,473:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:51:45,474:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:51:45,475:  INFO: common: created directory at: artifacts/data_ingestion]
+[2026-09-13 18:51:45,475:  INFO: data_ingestion: File already exists]
+[2026-09-13 18:51:45,477:  INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2026-09-13 18:51:45,477:  INFO: main: >>>>> stage Data Validation Stage started <<<<<]
+[2026-09-13 18:51:45,481:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:51:45,482:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:51:45,483:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:51:45,483:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:51:45,485:  INFO: common: created directory at: artifacts/data_validation]
+[2026-09-13 18:51:45,500:  INFO: main: >>>>> stage Data Validation Stage completed <<<<<
+
+x==========x]
+[2026-09-13 18:51:45,503:  INFO: main: >>>>> stage Data Transformation Stage started <<<<<]
+[2026-09-13 18:51:45,508:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:51:45,508:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:51:45,515:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:51:45,516:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:51:45,516:  INFO: common: created directory at: artifacts/data_transformation]
+[2026-09-13 18:51:45,535:  INFO: data_transformation: Splited data into train and test sets]
+[2026-09-13 18:51:45,535:  INFO: data_transformation: (1199, 12)]
+[2026-09-13 18:51:45,535:  INFO: data_transformation: (400, 12)]
+[2026-09-13 18:51:45,535:  INFO: main: >>>>> stage Data Transformation Stage completed <<<<<
+
+x==========x]
+[2026-09-13 18:51:45,535:  INFO: main: >>>>> stage Model Trainer Stage started <<<<<]
+[2026-09-13 18:51:45,538:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:51:45,538:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:51:45,543:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:51:45,544:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:51:45,544:  INFO: common: created directory at: artifacts/model_trainer]
+[2026-09-13 18:51:45,568:  INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
+
+x==========x]
+[2026-09-13 18:51:45,568:  INFO: main: >>>>> stage Model Evaluation Stage started <<<<<]
+[2026-09-13 18:51:45,573:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 18:51:45,574:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 18:51:45,576:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 18:51:45,576:  INFO: common: created directory at: artifacts]
+[2026-09-13 18:51:45,576:  INFO: common: created directory at: artifacts/model_evaluation]
+[2026-09-13 18:51:49,771:  INFO: common: json file saved at: artifacts\model_evaluation\metric.json]
+[2026-09-13 18:52:07,999:  INFO: main: >>>>> stage Model Evaluation Stage completed <<<<<
+
+x==========x]
+[2026-09-13 19:32:32,388:  INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.136:8080]
+[2026-09-13 19:32:32,388:  INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-09-13 19:32:42,605:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:32:42] "GET / HTTP/1.1" 200 -]
+[2026-09-13 19:32:42,649:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:32:42] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2026-09-13 19:32:42,683:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:32:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-09-13 19:32:49,145:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:32:49] "GET / HTTP/1.1" 200 -]
+[2026-09-13 19:32:49,434:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:32:49] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2026-09-13 19:32:49,556:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:32:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-09-13 19:33:06,596:  INFO: main: >>>>> stage Data Ingestion Stage started <<<<<]
+[2026-09-13 19:33:06,599:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 19:33:06,601:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 19:33:06,604:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 19:33:06,604:  INFO: common: created directory at: artifacts]
+[2026-09-13 19:33:06,605:  INFO: common: created directory at: artifacts/data_ingestion]
+[2026-09-13 19:33:06,605:  INFO: data_ingestion: File already exists]
+[2026-09-13 19:33:06,609:  INFO: main: >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2026-09-13 19:33:06,609:  INFO: main: >>>>> stage Data Validation Stage started <<<<<]
+[2026-09-13 19:33:06,613:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 19:33:06,614:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 19:33:06,616:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 19:33:06,616:  INFO: common: created directory at: artifacts]
+[2026-09-13 19:33:06,617:  INFO: common: created directory at: artifacts/data_validation]
+[2026-09-13 19:33:06,633:  INFO: main: >>>>> stage Data Validation Stage completed <<<<<
+
+x==========x]
+[2026-09-13 19:33:06,633:  INFO: main: >>>>> stage Data Transformation Stage started <<<<<]
+[2026-09-13 19:33:06,638:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 19:33:06,639:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 19:33:06,641:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 19:33:06,642:  INFO: common: created directory at: artifacts]
+[2026-09-13 19:33:06,642:  INFO: common: created directory at: artifacts/data_transformation]
+[2026-09-13 19:33:06,663:  INFO: data_transformation: Splited data into train and test sets]
+[2026-09-13 19:33:06,663:  INFO: data_transformation: (1199, 12)]
+[2026-09-13 19:33:06,664:  INFO: data_transformation: (400, 12)]
+[2026-09-13 19:33:06,664:  INFO: main: >>>>> stage Data Transformation Stage completed <<<<<
+
+x==========x]
+[2026-09-13 19:33:06,664:  INFO: main: >>>>> stage Model Trainer Stage started <<<<<]
+[2026-09-13 19:33:06,667:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 19:33:06,669:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 19:33:06,671:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 19:33:06,672:  INFO: common: created directory at: artifacts]
+[2026-09-13 19:33:06,675:  INFO: common: created directory at: artifacts/model_trainer]
+[2026-09-13 19:33:06,714:  INFO: main: >>>>> stage Model Trainer Stage completed <<<<<
+
+x==========x]
+[2026-09-13 19:33:06,714:  INFO: main: >>>>> stage Model Evaluation Stage started <<<<<]
+[2026-09-13 19:33:06,719:  INFO: common: yaml file: config\config.yaml loaded successfully]
+[2026-09-13 19:33:06,721:  INFO: common: yaml file: params.yaml loaded successfully]
+[2026-09-13 19:33:06,722:  INFO: common: yaml file: schema.yaml loaded successfully]
+[2026-09-13 19:33:06,723:  INFO: common: created directory at: artifacts]
+[2026-09-13 19:33:06,723:  INFO: common: created directory at: artifacts/model_evaluation]
+[2026-09-13 19:33:17,491:  INFO: common: json file saved at: artifacts\model_evaluation\metric.json]
+[2026-09-13 19:33:53,612:  INFO: main: >>>>> stage Model Evaluation Stage completed <<<<<
+
+x==========x]
+[2026-09-13 19:33:53,978:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:33:53] "GET /train HTTP/1.1" 200 -]
+[2026-09-13 19:34:03,990:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:34:03] "GET / HTTP/1.1" 200 -]
+[2026-09-13 19:34:04,228:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:34:04] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2026-09-13 19:34:23,421:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:34:23] "POST /predict HTTP/1.1" 200 -]
+[2026-09-13 19:34:23,658:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:34:23] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2026-09-13 19:38:42,517:  INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.136:8080]
+[2026-09-13 19:38:42,517:  INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-09-13 19:38:47,265:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:38:47] "POST /predict HTTP/1.1" 200 -]
+[2026-09-13 19:38:47,464:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:38:47] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2026-09-13 19:38:55,186:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:38:55] "GET / HTTP/1.1" 200 -]
+[2026-09-13 19:38:55,267:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:38:55] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2026-09-13 19:39:08,715:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:39:08] "POST /predict HTTP/1.1" 200 -]
+[2026-09-13 19:39:08,800:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:39:08] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2026-09-13 19:40:20,867:  INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.136:8080]
+[2026-09-13 19:40:20,867:  INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-09-13 19:40:28,767:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:40:28] "POST /predict HTTP/1.1" 200 -]
+[2026-09-13 19:40:32,831:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:40:32] "GET / HTTP/1.1" 200 -]
+[2026-09-13 19:40:46,569:  INFO: _internal: 127.0.0.1 - - [13/Sep/2026 19:40:46] "POST /predict HTTP/1.1" 200 -]
